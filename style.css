@@ -1,0 +1,107 @@
+body {
+    font-family: "Roboto Mono", serif;
+    background-color: #a6c5c9; /* Fondo azul claro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #00796b; /* Color verde oscuro */
+    font-family: "jersey 10", 'Courier New', Courier, monospace;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #004d40; /* Color verde más oscuro */
+  }
+  
+  input {
+    font-family: "Roboto Mono", serif;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #00796b; /* Borde verde oscuro */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ebf2f0;
+    color:#004d40
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #00796b; /* Fondo verde oscuro */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #004d40; /* Verde más oscuro al pasar el mouse */
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00796b; /* Color verde oscuro */
+  }
+  
+  #liderboard {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  #liderboard li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e0f2f1; /* Fondo verde claro */
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid #b2dfdb; /* Borde verde claro */
+    border-radius: 5px;
+    font-size: 14px;
+    color: #004d40; /* Color verde oscuro */
+  }
+  .eliminar-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #ff4444; /* Rojo */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .eliminar-btn:hover {
+    background-color: #cc0000; /* Rojo más oscuro */
+  }
+  h2{
+    color: #00796b;
+    font-size: 1.2rem;
+  }

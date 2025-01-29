@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de VO2Max</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Playwrite+DE+Grund:wght@100..400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculadora de VO2Max</h1>
+        <form id="vo2maxForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" required min="13">
+            <label for="kilometros">Kilómetros recorridos en 12 minutos:</label>
+            <input type="number" step="0.01" id="kilometros" required>
+            <button type="submit">Calcular VO2Max</button>
+        </form>
+        <h2>Resultado:</h2>
+        <p id="resultado"></p>
+        <h2>Liderboard (Top 15):</h2>
+        <ul id="liderboard"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
